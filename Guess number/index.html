@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 80px;
+            padding: 30px 40px;
+            align-content: center;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        button {
+            margin: 10px;
+            padding: 7px 10px;
+            background-color: rgb(224, 168, 95);
+            color: white;
+            border: none;
+            border-radius: 7px;
+        }
+
+        input {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Guess random number game </h1>
+        <p id="message">Guess a number between 1 - 100</p>
+        <input type="text" onkeyup="getNumber();">
+        <button>Submit</button>
+        <p class="results"></p>
+
+    </div>
+    <script src="number.js"></script>
+</body>
+
+</html>
